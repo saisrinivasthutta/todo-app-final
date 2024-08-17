@@ -1,0 +1,99 @@
+.sign-in-container {
+  background: linear-gradient(
+    135deg,
+    #f6d365 0%,
+    #fda085 100%
+  ); /* Attractive gradient background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.sign-in-form {
+  background: linear-gradient(
+    135deg,
+    #ffffff 0%,
+    #e6ffff 100%
+  ); /* Light gradient background */
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333; /* Dark gray title color */
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  margin-bottom: 5px;
+  display: block;
+  color: #555; /* Gray label color */
+}
+
+.input-group input {
+  width: 94%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #f0f0f0; /* Light gray input background */
+}
+
+.submit-button {
+  padding: 10px;
+  background: linear-gradient(
+    135deg,
+    #45caff 0%,
+    #3082ff 100%
+  ); /* Blue gradient background */
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background: linear-gradient(
+    135deg,
+    #3082ff 0%,
+    #45caff 100%
+  ); /* Reverse gradient on hover */
+}
+
+.submit-button[disabled] {
+  background: #ccc; /* Gray background for disabled button */
+  cursor: not-allowed;
+}
+
+.error-message {
+  margin-top: 10px;
+  color: red;
+  font-size: 14px;
+  text-align: center;
+}
+.sign-up-link {
+  margin-top: 20px;
+  text-align: center;
+  color: #555; /* Gray link color */
+}
+
+.sign-up-link a {
+  color: #3082ff; /* Blue link color */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sign-up-link a:hover {
+  text-decoration: underline;
+}

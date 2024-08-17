@@ -1,0 +1,198 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e9ecef;
+}
+
+.home-container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar button:hover {
+  color: white;
+  background-color: #0056b3;
+  cursor: pointer;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.profile-logout {
+  display: flex;
+  gap: 10px;
+}
+
+.profile-container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-details {
+  display: flex;
+  justify-content: center;
+  gap: 0px 70px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.profile-details h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.profile-details p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.todos-list {
+  margin-top: 20px;
+}
+
+.todos-list .title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.todos-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.todo-item h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.todo-item p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.todo-item button {
+  padding: 1px 1px;
+  background-color: #f00;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.todo-item button:hover {
+  background-color: #ff0000;
+}
+
+.create-profile {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.create-profile h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: rgb(49, 95, 168);
+}
+
+.create-profile button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.create-profile button:hover {
+  background-color: #0056b3;
+}
+
+.create-todo {
+  margin-top: 20px;
+  text-align: center;
+  align-self: center;
+}
+
+.create-todo-button {
+  padding: 10px 20px;
+  background-color: #28b048;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.create-todo button:hover {
+  background-color: #218838;
+}
+.profile-logo {
+  height: 140px;
+  margin-bottom: 10px;
+}
+
+.todo-item button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-update {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.delete-img {
+  height: 50px;
+  width: 150px;
+}

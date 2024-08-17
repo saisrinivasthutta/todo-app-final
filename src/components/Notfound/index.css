@@ -1,0 +1,18 @@
+.not-found-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.title {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333; /* Dark gray title color */
+}
+
+.description {
+  text-align: center;
+  color: #555; /* Gray description color */
+}
